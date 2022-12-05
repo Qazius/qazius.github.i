@@ -4,9 +4,9 @@ function submit1() {
    document.getElementById("total-items").innerText = +NumOfStacks * 64 + +Rest;
 }
 
-function submit2 {
+function submit2() {
    var totalItems = document.getElementById("total-items-input").value;
-   var stackCount = Math.floor(+totalItems/64)
-   var remaining = +totalItems % 64
-   document.getElementById("stacks").innerText = `${stackCount} stacks and ${remaining}`
+   var stackCount = Math.floor(+totalItems/64);
+   var remaining = +totalItems % 64;
+   document.getElementById("stacks").innerText = `${stackCount} stacks and ${remaining}`;
 }
